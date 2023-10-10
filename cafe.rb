@@ -25,7 +25,7 @@ def take_order(menus)
   array_number
 end
 
-puts 'bugカフェへようこそ！ご注文は？ 番号でどうぞ'
+puts 'もうbugってないカフェへようこそ！ご注文は？ 番号でどうぞ'
 order1 = take_order(DRINKS)
 
 puts 'フードメニューはいかがですか?'
