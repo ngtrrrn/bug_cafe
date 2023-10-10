@@ -20,8 +20,9 @@ def take_order(menus)
   end
   print '>'
   order_number = gets.to_i
-  puts "#{menus[order_number][:name]}(#{menus[order_number][:price]}円)ですね。"
-  order_number
+  array_number = order_number - 1
+  puts "#{menus[array_number][:name]}(#{menus[array_number][:price]}円)ですね。"
+  array_number
 end
 
 puts 'bugカフェへようこそ！ご注文は？ 番号でどうぞ'
